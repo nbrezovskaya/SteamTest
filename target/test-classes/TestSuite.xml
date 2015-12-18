@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Demo Test Plan" verbose="1">
+
+	<parameter name = "ageDay" value = "10"></parameter>
+	<parameter name = "ageMonth" value = "May"></parameter>
+	<parameter name = "ageYear" value = "1995"></parameter>
+
+	<parameter name ="fileName" value = "SteamSetup.exe"></parameter>
+	
+	<test name="Functional Tests" preserve-order="true">
+		<classes>
+ 			<class name="demo.test.DemoTest" />
+        </classes>
+	</test>
+</suite>
